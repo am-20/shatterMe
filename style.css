@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+.navbar {
+  font-size: 20px;
+}
+.navbar-brand {
+  text-decoration: line-through;
+  font-size: 30px;
+}
+.main img {
+  width: 100%;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  position: absolute;
+  text-align: center;
+  opacity: 0.5;
+  padding-top: 8vh;
+}
+#shatterMe {
+  font-size: 125px;
+  text-decoration: line-through;
+}
+#series {
+  font-size: 20px;
+  letter-spacing: 50px;
+  margin-top: -50px;
+}
+.about {
+  background: rgba(2, 3, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: fit-content;
+}
+.about-title h1,
+.book-title h1,
+.character-title h1 {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 5rem;
+}
+.book-title,
+.character-title {
+  padding: 5% 0;
+}
+.about-description {
+  font-size: 25px;
+  padding: 0 10% 5%;
+}
+.book {
+  background: rgb(6, 8, 20);
+  background: linear-gradient(
+    11deg,
+    rgba(6, 8, 20, 1) 0%,
+    rgba(21, 28, 101, 1) 29%,
+    rgba(62, 42, 98, 1) 57%,
+    rgba(48, 40, 70, 1) 80%,
+    rgba(12, 14, 40, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+}
+.book-cover {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 50px;
+  text-align: center;
+  font-size: 25px;
+  padding: 0 5%;
+}
+.book-cover img {
+  width: 100%;
+}
+.book-cover p {
+  font-size: 30px;
+}
+.book-cover p:hover {
+  cursor: pointer;
+}
+.modal-header h1 {
+  text-align: center;
+}
+.modal-title {
+  color: black;
+}
+.modal-body h5 {
+  color: black;
+  text-align: center;
+}
+.btn {
+  font-size: 20px;
+  border: 2px solid black;
+}
+.soon {
+  padding: 15% 0;
+  text-align: center;
+}
+.soon h1 {
+  font-size: 45px;
+}
+.soon h3 {
+  font-size: 30px;
+  padding-top: 15px;
+}
+.character {
+  background: rgb(8, 11, 25);
+  background: linear-gradient(
+    180deg,
+    rgba(8, 11, 25, 1) 0%,
+    rgba(21, 28, 101, 1) 29%,
+    rgba(21, 37, 87, 1) 57%,
+    rgba(37, 65, 99, 1) 80%,
+    rgba(12, 68, 94, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20%;
+}
+.character img {
+  width: 75%;
+  border-radius: 15px;
+}
+.character-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  text-align: center;
+}
+.character-list p {
+  position: absolute;
+}
+.character-list div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20%;
+}
+.name {
+  font-size: 27px;
+}
+.quote {
+  font-size: 26px;
+  opacity: 0;
+}
+.quote:hover {
+  cursor: pointer;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 100px 100px;
+  height: 7vh;
+}
+footer h1 {
+  color: black;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+footer a {
+  display: flex;
+  align-items: center;
+}
+footer i {
+  color: black;
+  font-size: 40px;
+}
+.appear {
+  opacity: 1;
+}
+.disappear {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  #shatterMe {
+    font-size: 100px;
+  }
+  #series {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-title h1,
+  .book-title h1,
+  .character-title h1 {
+    padding: 40px 0;
+    font-size: 4.5rem;
+  }
+  .about-description {
+    font-size: 20px;
+  }
+  .book-cover img {
+    width: 90%;
+  }
+  .character img {
+    width: 55%;
+  }
+  footer {
+    grid-template-columns: 1fr 80px 80px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .book-cover img {
+    width: 50%;
+  }
+  #shatterMe {
+    font-size: 75px;
+  }
+  #series {
+    font-size: 15px;
+    margin-top: -35px;
+  }
+}
+
+@media only screen and (width: 1024px) and (height: 1366px) {
+  .main img {
+    width: 100%;
+    height: 62vh;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .character-list {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  .character img {
+    width: 75%;
+  }
+  .name {
+    font-size: 22px;
+  }
+  .quote {
+    font-size: 21px;
+  }
+  .about-title h1,
+  .book-title h1,
+  .character-title h1 {
+    font-size: 3.8rem;
+  }
+  .soon h1 {
+    font-size: 35px;
+  }
+  .soon h3 {
+    font-size: 25px;
+  }
+  .soon {
+    padding: 30% 0;
+  }
+  .about-description {
+    font-size: 17px;
+    padding: 0 10% 10%;
+  }
+  .main img {
+    height: 42vh;
+  }
+  #shatterMe {
+    font-size: 50px;
+  }
+  #series {
+    margin-top: -25px;
+    padding: 0 5%;
+    letter-spacing: 45px;
+  }
+  footer {
+    grid-template-columns: 1fr 60px 60px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #series {
+    padding: 0 8%;
+    letter-spacing: 40px;
+    font-size: 13px;
+  }
+  #shatterMe {
+    font-size: 45px;
+  }
+  .about-title h1,
+  .book-title h1,
+  .character-title h1 {
+    padding: 20px 0;
+    font-size: 3.5rem;
+  }
+  .about-description {
+    font-size: 15px;
+  }
+  .book-cover p {
+    font-size: 25px;
+  }
+  .name {
+    font-size: 19px;
+  }
+  .quote {
+    font-size: 18px;
+  }
+  footer {
+    grid-template-columns: 1fr 50px 50px;
+  }
+  footer h1 {
+    font-size: 35px;
+    padding-top: 5px;
+    padding-left: 10%;
+  }
+  footer i {
+    color: black;
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/db307776a9.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Developing new code</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">SHATTER ME</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#character">Characters</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main -->
+    <div class="main">
+      <img src="./img/art.jpg" />
+      <div class="title">
+        <p id="shatterMe">SHATTER ME</p>
+        <p id="series">SERIES</p>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="about" id="about">
+      <div class="about-title"><h1>About</h1></div>
+      <div class="about-description">
+        Shatter Me is a young adult dystopian thriller written by Tahereh Mafi,
+        published on November 15, 2011. <br />
+        The book is narrated by Juliette, a 17-year-old girl with a lethal touch
+        and is unusual in that <br />it contains passages and lines that have
+        been crossed out like a diary entry.
+      </div>
+    </div>
+
+    <!-- Book -->
+    <div class="book" id="book">
+      <!-- Modal 1 -->
+      <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title">Shatter me</h1>
+            </div>
+            <div class="modal-body">
+              <h5>
+                Juliette hasn't touched anyone in exactly 264 days. <br /><br />
+                It was an accident, is what no one believed after the death of a
+                toddler at her own hands. She has been locked up in an asylum
+                for 264 days. No one knows why Juliette's touch is lethal. As
+                long as she doesn't hurt anyone else, no one really cares. The
+                world is too busy crumbling to pieces of cherry pie and relying
+                on a corrupt government, the Reestablishment, to pay attention
+                to a 17-year-old girl. Diseases are destroying the population's
+                doggy door, food is hard to find, birds don't fly anymore, and
+                the clouds are the wrong color. <br /><br />
+                The Reestablishment said their way was the only way to fix
+                things, so they threw Juliette in a cell. Now so many people are
+                dead that the survivors are whispering war-- and The
+                Reestablishment has changed its mind. Maybe Juliette is more
+                than a tortured soul stuffed into a poisonous body. Maybe she's
+                exactly what they need right now. <br /><br />
+                Juliette has to make a choice: <br /><br />
+                Be a weapon. Or be a warrior
+              </h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 1.5 -->
+      <div class="modal fade" id="modal1-5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title">Destroy me</h1>
+            </div>
+            <div class="modal-body">
+              <h5>
+                In Tahereh Mafi’s Shatter Me, Juliette escaped from The
+                Reestablishment by seducing Warner—and then putting a bullet in
+                his shoulder. But as she’ll learn in Destroy Me, Warner is not
+                that easy to get rid of. <br /><br />
+                Back at the base and recovering from his near-fatal wound,
+                Warner must do everything in his power to keep his soldiers in
+                check and suppress any mention of a rebellion in the sector.<br /><br />
+                Still as obsessed with Juliette as ever, his first priority is
+                to find her, bring her back, and dispose of Adam and Kenji, the
+                two traitors who helped her escape. But when Warner’s father,
+                The Supreme Commander of The Reestablishment, arrives to correct
+                his son’s mistakes, it’s clear that he has many different plans
+                for Juliette.<br /><br />
+                Plans Warner simply cannot allow.
+              </h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 2 -->
+      <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title">Unravel me</h1>
+            </div>
+            <div class="modal-body">
+              <h5>
+                Juliette has escaped to Omega Point. It is a place for people
+                like her—people with gifts—and it is also the headquarters of
+                the rebel resistance.<br /><br />
+                She's finally free from The Reestablishment, free from their
+                plan to use her as a weapon, and free to love Adam. But Juliette
+                will never be free from her lethal touch.<br /><br />
+                Or from Warner, who wants Juliette more than she ever thought
+                possible.<br /><br />
+                In this exhilarating sequel to Shatter Me, Juliette has to make
+                life-changing decisions between what she wants and what she
+                thinks is right. Decisions that might involve choosing between
+                her heart—and Adam's life.<br /><br />
+              </h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 2.5 -->
+      <div class="modal fade" id="modal2-5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title">Fracture me</h1>
+            </div>
+            <div class="modal-body">
+              <h5>
+                As Omega Point prepares to launch an all-out assault on The
+                Reestablishment soldiers stationed in Sector 45, Adam's focus
+                couldn't be further from the upcoming battle. He's reeling from
+                his breakup with Juliette, scared for his best friend's life,
+                and as concerned as ever for his brother James's safety. Just as
+                Adam begins to wonder if this life is really for him, the alarms
+                sound. It's time for war.<br /><br />
+                On the battlefield, it seems like the odds are in their
+                favor—but taking down Warner, Adam's newly discovered half
+                brother, won't be that easy. The Reestablishment can't tolerate
+                a rebellion, and they'll do anything to crush the resistance . .
+                . including killing everyone Adam has ever cared about.<br /><br />
+              </h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 3 -->
+      <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title">Ignite me</h1>
+            </div>
+            <div class="modal-body">
+              <h5>
+                With Omega Point destroyed, Juliette doesn't know if the rebels,
+                her friends, or even Adam are alive. But that won't keep her
+                from trying to take down The Reestablishment once and for all.
+                Now she must rely on Warner, the handsome commander of Sector
+                45. The one person she never thought she could trust. The same
+                person who saved her life. He promises to help Juliette master
+                her powers and save their dying world . . . but that's not all
+                he wants with her.
+              </h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 4 -->
+      <div class="modal fade" id="modal4" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title">Restore me</h1>
+            </div>
+            <div class="modal-body">
+              <h5>
+                Juliette Ferrars thought she'd won. She took over Sector 45, was
+                named the new Supreme Commander, and now has Warner by her side.
+                But she's still the girl with the ability to kill with a single
+                touch—and now she's got the whole world in the palm of her hand.
+                When tragedy hits, who will she become? Will she be able to
+                control the power she wields and use it for good?
+              </h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 4.5 -->
+      <div class="modal fade" id="modal4-5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title">Shadow me</h1>
+            </div>
+            <div class="modal-body">
+              <h5>
+                Juliette is still reeling from Warner's betrayal, and Kenji is
+                trying to balance his friendship with her with his
+                responsibilities as a leader of the resistance against the
+                Reestablishment. Things get even more interesting when an
+                unexpected person from Omega Point’s past surfaces.
+              </h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 5 -->
+      <div class="modal fade" id="modal5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title">Defy me</h1>
+            </div>
+            <div class="modal-body">
+              <h5>
+                The gripping fifth installment in the New York Times, USA Today,
+                and Publishers Weekly bestselling Shatter Me series. Will
+                Juliette’s broken heart make her vulnerable to the strengthening
+                darkness within her?<br /><br />
+                Juliette’s short tenure as the supreme commander of North
+                America has been an utter disaster. When the children of the
+                other world leaders show up on her doorstep, she wants nothing
+                more than to turn to Warner for support and guidance. But he
+                shatters her heart when he reveals that he’s been keeping
+                secrets about her family and her identity from her—secrets that
+                change everything.<br /><br />
+                Juliette is devastated, and the darkness that’s always dwelled
+                within her threatens to consume her. An explosive encounter with
+                unexpected visitors might be enough to push her over the edge.
+              </h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 5.5 -->
+      <div class="modal fade" id="modal5-5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title">Reveal me</h1>
+            </div>
+            <div class="modal-body">
+              <h5>No description yet :)</h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal 6 -->
+      <div class="modal fade" id="modal6" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title">Imagine me</h1>
+            </div>
+            <div class="modal-body">
+              <h5>No description yet :)</h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="book-title"><h1>Books</h1></div>
+      <div class="book-cover">
+        <div>
+          <img src="./img/Shatter me.jpg" alt="shatterMe" />
+          <p
+            class="book-cover-number"
+            data-toggle="modal"
+            data-target="#modal1"
+          >
+            Book 1
+          </p>
+        </div>
+        <div>
+          <img src="./img/Destroy Me_.jpg" alt="destroyMe" />
+          <p
+            class="book-cover-number"
+            data-toggle="modal"
+            data-target="#modal1-5"
+          >
+            Book 1.5
+          </p>
+        </div>
+        <div>
+          <img src="./img/Unravel Me.jpg" alt="unravelMe" />
+          <p
+            class="book-cover-number"
+            data-toggle="modal"
+            data-target="#modal2"
+          >
+            Book 2
+          </p>
+        </div>
+        <div>
+          <img src="./img/Fracture Me.jpg" alt="fractureMe" />
+          <p
+            class="book-cover-number"
+            data-toggle="modal"
+            data-target="#modal2-5"
+          >
+            Book 2.5
+          </p>
+        </div>
+        <div>
+          <img src="./img/Ignite Me.jpg" alt="igniteMe" />
+          <p
+            class="book-cover-number"
+            data-toggle="modal"
+            data-target="#modal3"
+          >
+            Book 3
+          </p>
+        </div>
+        <div>
+          <img src="./img/Restore Me.png" alt="restoreMe" />
+          <p
+            class="book-cover-number"
+            data-toggle="modal"
+            data-target="#modal4"
+          >
+            Book 4
+          </p>
+        </div>
+        <div>
+          <img src="./img/Shadow Me.jpg" alt="shadowMe" />
+          <p
+            class="book-cover-number"
+            data-toggle="modal"
+            data-target="#modal4-5"
+          >
+            Book 4.5
+          </p>
+        </div>
+        <div>
+          <img src="./img/Defy Me.jpg" alt="defyMe" />
+          <p
+            class="book-cover-number"
+            data-toggle="modal"
+            data-target="#modal5"
+          >
+            Book 5
+          </p>
+        </div>
+        <div>
+          <img src="./img/Reveal Me.jpg" alt="revealMe" />
+          <p
+            class="book-cover-number"
+            data-toggle="modal"
+            data-target="#modal5-5"
+          >
+            Book 5.5
+          </p>
+        </div>
+        <div>
+          <img src="./img/Imagine Me.png" alt="imagineMe" />
+          <p
+            class="book-cover-number"
+            data-toggle="modal"
+            data-target="#modal6"
+          >
+            Book 6
+          </p>
+        </div>
+      </div>
+      <div class="soon">
+        <h1>Coming soon:</h1>
+        <h3>
+          Unite me <br />
+          Find me
+        </h3>
+      </div>
+    </div>
+
+    <!-- Character -->
+    <div class="character" id="character">
+      <div class="character-title" id="title"><h1>Characters</h1></div>
+      <div class="character-list">
+        <!-- row -->
+        <div>
+          <img src="./img/julliette.jpg" alt="julliette" />
+          <p class="name">Julliette Ferrars</p>
+          <p class="quote">My touch is lethal</p>
+        </div>
+        <div>
+          <img src="./img/adam.jpg" alt="adam" />
+          <p class="name">Adam Kent</p>
+          <p class="quote">
+            There's very little <br />
+            I wouldn't do for you
+          </p>
+        </div>
+        <div>
+          <img src="./img/warner.jpg" alt="warner" />
+          <p class="name">Aaron Warner Anderson</p>
+          <p class="quote">
+            I grieve nothing <br />
+            I take everything
+          </p>
+        </div>
+        <!-- row -->
+        <div>
+          <img src="./img/kenji.jpg" alt="kenji" />
+          <p class="name">Kenji Kishimoto</p>
+          <p class="quote">Son of a motherless goat!</p>
+        </div>
+        <div>
+          <img src="./img/james.jpg" alt="james" />
+          <p class="name">James Kent</p>
+          <p class="quote">That seems awfully convenient</p>
+        </div>
+        <div>
+          <img src="./img/delalieu.jpg" alt="delalieu" />
+          <p class="name">Delalieu Warner</p>
+          <p class="quote">Good to see you’re all right, sir</p>
+        </div>
+        <!-- row -->
+        <div>
+          <img src="./img/paris.jpg" alt="paris" />
+          <p class="name">Paris Anderson</p>
+          <p class="quote">
+            It's always so difficult <br />
+            to kill a beautiful thing
+          </p>
+        </div>
+        <div>
+          <img src="./img/leila.jpg" alt="leila" />
+          <p class="name">Leila Warner</p>
+          <p class="quote">
+            If you hide your heart, <br />
+            he will never be able <br />
+            to take it from you.
+          </p>
+        </div>
+        <div>
+          <img src="./img/castle.jpg" alt="castle" />
+          <p class="name">Castle</p>
+          <p class="quote">Fear is a great motivator</p>
+        </div>
+        <!-- row -->
+        <div>
+          <img src="./img/winston.jpg" alt="winston" />
+          <p class="name">Winston</p>
+          <p class="quote">
+            Kick yourself in the face, <br />
+            Brendan
+          </p>
+        </div>
+        <div>
+          <img src="./img/brendan.jpg" alt="brendan" />
+          <p class="name">Brendan</p>
+          <p class="quote">
+            I don't even know <br />
+            why we're friends
+          </p>
+        </div>
+        <div>
+          <img src="./img/alia.jpg" alt="alia" />
+          <p class="name">Alia</p>
+          <p class="quote">
+            Your powers make you <br />
+            functionally invincible
+          </p>
+        </div>
+        <!-- row -->
+        <div>
+          <img src="./img/ian.jpg" alt="ian" />
+          <p class="name">Ian Sanchez</p>
+          <p class="quote">
+            It's like a soap opera. <br />
+            But with worse acting
+          </p>
+        </div>
+        <div>
+          <img src="./img/lily.jpg" alt="lily" />
+          <p class="name">Lily</p>
+          <p class="quote">
+            It sucks being <br />
+            the only girl around here
+          </p>
+        </div>
+        <div>
+          <img src="./img/sonya.jpg" alt="sonya" />
+          <p class="name">Sonya & Sara</p>
+          <p class="quote">
+            They’re only afraid of you <br />
+            because they don’t know you
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <h1>AM || RS</h1>
+      <a href="https://t.me/amtrs">
+        <i class="fa fa-telegram" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/_am.rs_/">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+</html>
